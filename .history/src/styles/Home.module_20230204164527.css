@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;500&display=swap');
+
 
 .hero {
   background-image: url("../images/background.jpg");
@@ -20,8 +20,7 @@
 .MSContainer p {
   color: white;
   font-size: 4rem;
-  line-height: 150px;
-  font-family: "Overpass";
+  line-height: 3rem;
 }
 
 .MSBPoints {

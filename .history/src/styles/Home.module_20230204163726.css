@@ -1,0 +1,14 @@
+
+
+.hero {
+  background-image: url("../images/background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 90vh;
+}
+
+.MSContainer {
+  height: 100vh;
+  background-color: #293066;
+}

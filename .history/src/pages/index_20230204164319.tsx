@@ -17,7 +17,7 @@ export default function Home() {
       <main className={styles.main}>
          <section className={styles.hero}></section>
          <section className={styles.MSContainer}>
-            <p><span className={styles.MSBPoints}>West Pearl</span> empowers <span className={styles.MSBPoints}>healthy aging</span> and <span className={styles.MSBPoints}>active lifestyles</span> through pure and potent world-class supplements via the Latin American <span className={styles.MSBPoints}>ecommerce</span> market.</p>
+            <p><span className={styles.MSBPoints}>West Pearl</span> empowers <span>healthy aging</span> and <span>active lifestyles</span> through pure and potent world-class supplements via the Latin American <span>ecommerce</span> market.</p>
          </section>
       </main>
     </>
