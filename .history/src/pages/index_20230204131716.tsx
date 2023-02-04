@@ -15,7 +15,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-      <iframe src="https://giphy.com/embed/iHD88spVFkL7mZakwa" width="480" height="480" frameBorder="0" className={styles.soon} allowFullScreen></iframe><p></p>
+      <iframe src="https://giphy.com/embed/iHD88spVFkL7mZakwa" width="480" height="480" frameBorder="0" className={styles.soon} allowFullScreen></iframe><p><a href="https://giphy.com/gifs/iHD88spVFkL7mZakwa">via GIPHY</a></p>
       </main>
     </>
   )
