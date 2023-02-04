@@ -4,12 +4,14 @@
 
 
 .MSContainer {
-  height: 90vh;
+  height: 100vh;
   background-color: #293066;
   display: flex;
   flex-direction: column;
-  padding: 0px 15%;
-  justify-content: space-evenly;
+  align-items: flex-end;
+  justify-content: center;
+  padding: 15%;
+  margin-bottom: 100px;
 }
 
 .MSContainer p {
@@ -22,9 +24,4 @@
 .MSBPoints {
   color: rgb(121, 175, 162);
   font-style: italic;
-}
-
-.logo {
-  margin: 50px 0px;
- 
 }

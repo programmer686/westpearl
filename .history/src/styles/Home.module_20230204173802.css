@@ -4,12 +4,15 @@
 
 
 .MSContainer {
-  height: 90vh;
+  height: 100vh;
   background-color: #293066;
   display: flex;
   flex-direction: column;
-  padding: 0px 15%;
+  align-items: space-evenly;
   justify-content: space-evenly;
+  padding: 10%;
+  border: 1px solid red;
+  margin-bottom: 100px;
 }
 
 .MSContainer p {
@@ -26,5 +29,4 @@
 
 .logo {
   margin: 50px 0px;
- 
 }
