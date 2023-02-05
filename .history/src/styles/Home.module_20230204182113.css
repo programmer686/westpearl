@@ -35,19 +35,22 @@
 @media (max-width: 600px) {
 
   .MSContainer {
-    width: 100%;
-    justify-content: space-evenly;
+    height: 100%;
+    border: 1px solid red;
+    padding: 15% 0%;
     align-items: space-between;
+    justify-content: space-between;
   }
 
   .MSContainer p {
-    font-size: 5vw;
+    font-size: 7vw;
     height: 70vh;
     line-height: 7vh;
+    padding: 0% 5%;
   }
 
   .imageContaienr {
-    width: 100%;
+    width: 90%;
     height: 12%;
   }
   

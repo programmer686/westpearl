@@ -18,7 +18,7 @@ export default function Home() {
       <main className={styles.main}>
          <section className={styles.MSContainer}>
           <div className={styles.imageContaienr}>
-            <Image alt=''  src={logo} className={styles.logo} fill/>
+            <Image alt='Mountains' layout='fill' objectFit='contain' src={logo}  className={styles.logo}/>
           </div>
             <p>
               <span className={styles.MSBPoints}>West Pearl</span> empowers <span className={styles.MSBPoints}>healthy aging</span> and <span className={styles.MSBPoints}>active lifestyles</span> through pure and potent world-class supplements via the Latin American <span className={styles.MSBPoints}>ecommerce</span> market.

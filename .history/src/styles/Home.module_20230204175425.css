@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Overpass:wght@400;500&display=swap');
+
+.main {
+ 
+}
+
+
+.MSContainer {
+  height: fit-content;
+  background-color: #293066;
+  display: flex;
+  flex-direction: column;
+  padding: 0px 15%;
+  justify-content: space-evenly;
+}
+
+.MSContainer p {
+  color: white;
+  font-size: 4rem;
+  line-height: 100px;
+  font-family: "Montserrat";
+}
+
+.MSBPoints {
+  color: rgb(121, 175, 162);
+  font-style: italic;
+}
+
+.logo {
+  margin: 50px 0px;
+ 
+}

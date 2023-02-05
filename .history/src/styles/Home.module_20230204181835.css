@@ -35,13 +35,13 @@
 @media (max-width: 600px) {
 
   .MSContainer {
-    width: 100%;
+    padding: 0;
     justify-content: space-evenly;
-    align-items: space-between;
+    align-items: center;
   }
 
   .MSContainer p {
-    font-size: 5vw;
+    font-size: 7vw;
     height: 70vh;
     line-height: 7vh;
   }
