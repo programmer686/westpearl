@@ -28,8 +28,8 @@
 
 .imageContaienr {
   width: 30vw;
-  height: 7vw;
   position:relative;
+  height: 15vh;
 }
 
 @media (max-width: 600px) {
@@ -45,10 +45,10 @@
     height: 70vh;
     line-height: 7vh;
   }
- 
   .imageContaienr {
-    width: 60vw;
-    height: 14vw;
+    width: 15vw;
+    height: 7.5vh;
   }
+ 
   
 }

@@ -27,8 +27,9 @@
 }
 
 .imageContaienr {
-  width: 30vw;
-  height: 7vw;
+  max-width: 100%;
+  height: auto;
+  min-height: 100px;
   position:relative;
 }
 
@@ -46,9 +47,6 @@
     line-height: 7vh;
   }
  
-  .imageContaienr {
-    width: 60vw;
-    height: 14vw;
-  }
+ 
   
 }
