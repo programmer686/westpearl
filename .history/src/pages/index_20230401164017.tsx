@@ -3,6 +3,9 @@ import Image from 'next/image'
 import logo from '../images/wp.png'
 import { Inter } from '@next/font/google'
 import styles from '@/styles/Home.module.css'
+import type { AppProps } from 'next/app'
+import { Analytics } from '@vercel/analytics/react'
+
 
 const inter = Inter({ subsets: ['latin'] })
 const str = 'https://media.giphy.com/media/iHD88spVFkL7mZakwa/giphy.gif'
@@ -17,10 +20,14 @@ export default function Home() {
       </Head>
       <main className={styles.main}>
          <section className={styles.MSContainer}>
+          <div className={styles.imageContaienr}>
+            <Image alt=''  src={logo} className={styles.logo} fill/>
+          </div>
             <p>
+              <Analytics/>
               <span className={styles.MSBPoints}>West Pearl</span> empowers <span className={styles.MSBPoints}>healthy aging</span> and <span className={styles.MSBPoints}>active lifestyles</span> through pure and potent world-class supplements via the Latin American <span className={styles.MSBPoints}>ecommerce</span> market.
             </p>
-            <Image alt='' src={logo} width={100} height={100}/>
+            <p>This is the power of vercel</p>
          </section>
       </main>
     </>
