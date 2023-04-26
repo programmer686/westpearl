@@ -25,7 +25,7 @@ export default function Home() {
           </div>
             <p>
               <Analytics/>
-              <span className={styles.MSBPoints}>Westpearl</span> empowers <span className={styles.MSBPoints}>healthy aging</span> and <span className={styles.MSBPoints}>active lifestyles</span> through pure and potent world-class supplements via the Latin American <span className={styles.MSBPoints}>ecommerce</span> market.
+              <span className={styles.MSBPoints}> Pearl</span> empowers <span className={styles.MSBPoints}>healthy aging</span> and <span className={styles.MSBPoints}>active lifestyles</span> through pure and potent world-class supplements via the Latin American <span className={styles.MSBPoints}>ecommerce</span> market.
             </p>
          </section>
       </main>
